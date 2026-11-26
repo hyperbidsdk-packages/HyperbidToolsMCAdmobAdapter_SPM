@@ -16,8 +16,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/hyperbidsdk-packages/HyperbidToolsMCSDK_SPM.git", from: "4.2.11"),
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.4.0")
+        .package(url: "https://github.com/hyperbidsdk-packages/HyperbidToolsMCSDK_SPM.git", from: "4.2.12"),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.13.0")
     ],
     targets: [
         .target(
@@ -31,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "HyperbidToolsMCAdmobAdapterBinary",
-            url: "https://topon-sdk-release.oss-cn-hangzhou.aliyuncs.com/MCSDK/iOS/v4.2.11/overseas/sdks/MCSDKAdmobAdapter-13.4.0.1.zip",
-            checksum: "32aaaad78ccbb185d513b405fdfba62410f7eee02e2575be524f0029b6d06510"
+            url: "https://topon-sdk-release.oss-cn-hangzhou.aliyuncs.com/MCSDK/iOS/v4.2.12/overseas/sdks/MCSDKAdmobAdapter-1313.0.0.zip",
+            checksum: "068ae5665033cb0f8c41811d7636e985dfbab46fe40b1f6a15833e5515c0fd46"
         )
     ]
 )
